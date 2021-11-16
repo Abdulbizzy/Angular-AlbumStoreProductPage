@@ -23,7 +23,7 @@ const appRoutes: Routes = [
     ProductDescriptionComponent,
     ProductTracklistingComponent,
     ProductListComponent,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes)
   ],
   imports: [
     BrowserModule,
