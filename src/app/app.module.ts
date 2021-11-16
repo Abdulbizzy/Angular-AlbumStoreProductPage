@@ -23,12 +23,13 @@ const appRoutes: Routes = [
     ProductDescriptionComponent,
     ProductTracklistingComponent,
     ProductListComponent,
-    RouterModule.forRoot(appRoutes)
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
